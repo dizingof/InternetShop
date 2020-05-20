@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToyShop.Domain", "ToyShop.Domain\ToyShop.Domain.csproj", "{3604EA68-8612-40DD-881A-82CC49E6A0E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToyShop.WebUI", "ToyShop.WebUI\ToyShop.WebUI.csproj", "{C05EEEF1-35D2-4D3B-B955-D740E9360364}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToyShop.UnitTests", "ToyShop.UnitTests\ToyShop.UnitTests.csproj", "{9BA22A5A-908C-4439-9B81-42EA4AC1E92A}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3604EA68-8612-40DD-881A-82CC49E6A0E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3604EA68-8612-40DD-881A-82CC49E6A0E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3604EA68-8612-40DD-881A-82CC49E6A0E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3604EA68-8612-40DD-881A-82CC49E6A0E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C05EEEF1-35D2-4D3B-B955-D740E9360364}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C05EEEF1-35D2-4D3B-B955-D740E9360364}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C05EEEF1-35D2-4D3B-B955-D740E9360364}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C05EEEF1-35D2-4D3B-B955-D740E9360364}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BA22A5A-908C-4439-9B81-42EA4AC1E92A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BA22A5A-908C-4439-9B81-42EA4AC1E92A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BA22A5A-908C-4439-9B81-42EA4AC1E92A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BA22A5A-908C-4439-9B81-42EA4AC1E92A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
