@@ -89,3 +89,8 @@ C:\Users\Roman\source\Repos\InternetShop\InternetShop\ToyShop.WebUI\obj\Debug\To
 C:\Users\Roman\source\Repos\InternetShop\InternetShop\ToyShop.WebUI\obj\Debug\ToyShop.WebUI.pdb
 C:\Users\Roman\source\Repos\InternetShop\InternetShop\ToyShop.WebUI\bin\Ninject.Web.Common.WebHost.dll
 C:\Users\Roman\source\Repos\InternetShop\InternetShop\ToyShop.WebUI\bin\Ninject.Web.Common.WebHost.xml
+C:\Users\Roman\source\Repos\InternetShop\InternetShop\ToyShop.WebUI\bin\EntityFramework.dll
+C:\Users\Roman\source\Repos\InternetShop\InternetShop\ToyShop.WebUI\bin\EntityFramework.SqlServer.dll
+C:\Users\Roman\source\Repos\InternetShop\InternetShop\ToyShop.WebUI\bin\ToyShop.Domain.dll.config
+C:\Users\Roman\source\Repos\InternetShop\InternetShop\ToyShop.WebUI\bin\EntityFramework.xml
+C:\Users\Roman\source\Repos\InternetShop\InternetShop\ToyShop.WebUI\bin\EntityFramework.SqlServer.xml

@@ -18,3 +18,8 @@ C:\Users\Roman\source\Repos\InternetShop\InternetShop\ToyShop.Domain\obj\Debug\T
 C:\Users\Roman\source\Repos\InternetShop\InternetShop\ToyShop.Domain\obj\Debug\ToyShop.Domain.csproj.CopyComplete
 C:\Users\Roman\source\Repos\InternetShop\InternetShop\ToyShop.Domain\obj\Debug\ToyShop.Domain.dll
 C:\Users\Roman\source\Repos\InternetShop\InternetShop\ToyShop.Domain\obj\Debug\ToyShop.Domain.pdb
+C:\Users\Roman\source\Repos\InternetShop\InternetShop\ToyShop.Domain\bin\Debug\ToyShop.Domain.dll.config
+C:\Users\Roman\source\Repos\InternetShop\InternetShop\ToyShop.Domain\bin\Debug\EntityFramework.dll
+C:\Users\Roman\source\Repos\InternetShop\InternetShop\ToyShop.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Roman\source\Repos\InternetShop\InternetShop\ToyShop.Domain\bin\Debug\EntityFramework.xml
+C:\Users\Roman\source\Repos\InternetShop\InternetShop\ToyShop.Domain\bin\Debug\EntityFramework.SqlServer.xml

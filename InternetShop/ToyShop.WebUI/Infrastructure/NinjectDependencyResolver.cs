@@ -6,6 +6,7 @@ using Moq;
 using Ninject;
 using ToyShop.Domain.Abstract;
 using ToyShop.Domain.Entities;
+using ToyShop.Domain.Concrete;
 
 
 namespace GameStore.WebUI.Infrastructure
@@ -32,14 +33,7 @@ namespace GameStore.WebUI.Infrastructure
 
         private void AddBindings()
         {
-            Mock<IToyRepository> mock = new Mock<IToyRepository>();
-            mock.Setup(m => m.Toys).Returns(new List<Toy>
-                    {
-                         new Toy { Name = "SimCity", Price = 1499 },
-                         new Toy { Name = "TITANFALL", Price=2299 },
-                         new Toy { Name = "Battlefield 4", Price=899.4M }
-                    });
-            kernel.Bind<IToyRepository>().ToConstant(mock.Object);
+            kernel.Bind<IToyRepository>().To<EFToyRepository>();
         }
     }
 }
