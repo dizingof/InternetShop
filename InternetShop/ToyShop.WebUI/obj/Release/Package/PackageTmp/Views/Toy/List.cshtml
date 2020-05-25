@@ -1,11 +1,11 @@
-﻿@using ToyShop.Domain.Entities
-@model IEnumerable<Toy>
+﻿@using ToyShop.WebUI.Models
+@model ToysListViewModel
 
 @{
     ViewBag.Title = "Товары";
 }
 
-@foreach (var p in @Model)
+@foreach (var p in @Model.Toys)
 {
     <div>
         <h3>@p.Name</h3>
@@ -13,3 +13,7 @@
         <h4>@p.Price.ToString("# руб")</h4>
     </div>
 }
+
+<div>
+    @Html.PageLinks(Model.PagingInfo, x => Url.Action("List", new { page = x }))
+</div>
