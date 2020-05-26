@@ -18,11 +18,12 @@ namespace ToyShop.WebUI.Controllers
         {
             toyRepository = Repository;
         }
-        public ViewResult List(int page = 1)
+        public ViewResult List(string category, int page = 1)
         {
           ToysListViewModel model = new ToysListViewModel
           {
                 Toys = toyRepository.Toys
+                    .Where(p => category == null || p.Category == category)
                     .OrderBy(toy => toy.ToyId)
                     .Skip((page - 1) * pageSize)
                     .Take(pageSize),
@@ -31,9 +32,11 @@ namespace ToyShop.WebUI.Controllers
                     CurrentPage = page,
                     ItemsPerPage = pageSize,
                     TotalItems = toyRepository.Toys.Count()
-                }
-            
+                },
+              CurrentCategory = category
+
           };
+
             return View(model);
         }
     }
