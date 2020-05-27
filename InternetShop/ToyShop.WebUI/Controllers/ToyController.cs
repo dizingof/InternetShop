@@ -31,7 +31,9 @@ namespace ToyShop.WebUI.Controllers
                 {
                     CurrentPage = page,
                     ItemsPerPage = pageSize,
-                    TotalItems = toyRepository.Toys.Count()
+                    TotalItems = category == null ?
+                    toyRepository.Toys.Count() :
+                    toyRepository.Toys.Where(toy => toy.Category == category).Count()
                 },
               CurrentCategory = category
 
